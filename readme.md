@@ -1,242 +1,500 @@
 # 🏙️ Town Treasure
 
-> **Town Treasure** is a full-stack city exploration and travel platform designed to help users discover cities, explore attractions and local services, and access travel-related booking facilities through a single web application.
+### Your Ultimate Town Travel Companion
+
+**Town Treasure** is a full-stack travel and city-exploration platform designed to make discovering, planning, and experiencing a town easier from one place.
+
+The platform brings together **attractions, landmarks, local events, dining, accommodation, transportation, tour packages, interactive maps, itinerary planning, reviews, and travel guides** into a unified travel experience.
 
 ---
 
-## 📖 About the Project
+## 🌟 Overview
 
-**Town Treasure** is a collaborative full-stack web application developed to provide users with a convenient way to explore a town or city and discover the services and experiences available around them.
+Planning a trip often requires switching between multiple platforms to discover places, compare services, plan activities, and manage bookings.
 
-The platform brings different travel and city-exploration functionalities together into one application. Users can navigate through the platform, explore city-related services, access booking functionality, and use authentication features to interact with the application.
+**Town Treasure solves this problem by providing a centralized platform where users can:**
 
-The frontend is developed using **React.js** and **Tailwind CSS**, providing a responsive and component-based user interface. The backend is built using **Java and Spring Boot**, which provides the application's backend APIs and business logic. **JWT (JSON Web Token)** is used as part of the authentication system.
+* Discover attractions and landmarks
+* Explore local events and experiences
+* Find restaurants, cafes, and nightlife
+* Explore accommodation and transportation options
+* Browse tour packages
+* Plan personalized itineraries
+* Navigate destinations using interactive maps
+* Read and share reviews
+* Access travel blogs and destination guides
 
-The project was developed collaboratively, with different team members responsible for different modules of the application.
-
----
-
-## 🎯 Problem Statement
-
-When planning a visit to a new city or exploring their own city, users often need to search across multiple platforms for information about attractions, services, and travel-related facilities.
-
-Town Treasure aims to bring these different functionalities together into a centralized platform where users can:
-
-- Explore cities and available services
-- Discover attractions and landmarks
-- Access travel and booking services
-- Create an account and securely log in
-- Navigate between different city-related features
-- Access information through a simple and responsive interface
+The goal is to provide a **seamless and convenient digital companion for exploring a town.**
 
 ---
 
-## 💡 Project Objectives
+## ✨ Key Features
 
-The main objectives of Town Treasure are:
+### 🗺️ City Exploration
 
-- Build a centralized city exploration platform.
-- Provide an easy-to-use interface for discovering city services.
-- Provide access to travel and booking-related functionality.
-- Implement secure user authentication.
-- Build a responsive and modern frontend.
-- Develop a structured full-stack application using React and Spring Boot.
-- Enable multiple application modules to work together through a unified interface.
+Discover interesting places and experiences around a town, including:
 
----
+* Historical landmarks
+* Museums
+* Parks
+* Tourist attractions
+* Local experiences
+* Popular destinations
 
-# ✨ Features
-
-## 🏠 Home Page
-
-The home page acts as the primary entry point to the application.
-
-It provides users with access to the major features of Town Treasure and allows them to navigate to different sections of the platform.
+Each destination can provide relevant information to help users decide where to go.
 
 ---
 
-## 🗺️ Explore City Services
+### 🎉 Local Events
 
-The city exploration module allows users to discover different services and places available in a city.
+Stay updated with events and activities happening around the town.
+
+Users can discover:
+
+* Festivals
+* Concerts
+* Cultural events
+* Local activities
+* Community experiences
+
+---
+
+### 🍽️ Dining & Nightlife
+
+Discover places to eat, relax, and enjoy the local nightlife.
 
 Users can explore:
 
-- Attractions
-- Landmarks
-- City services
-- Travel-related information
-- Places of interest
-
-The goal is to make discovering a city easier from a single platform.
+* Restaurants
+* Cafes
+* Bars
+* Clubs
+* Different cuisines
+* Various price ranges
 
 ---
 
-## 🏨 Booking Services
+### 🏨 Accommodation
 
-Town Treasure includes a booking-services module that allows users to explore available travel-related services.
+Explore different accommodation options for a trip.
 
-The module is designed to provide users with a convenient way to access available services through the platform.
+The platform is designed to support:
+
+* Hotels
+* Bed & Breakfasts
+* Vacation rentals
+* Reviews
+* Price comparison
+* Booking
+
+---
+
+### 🚕 Transportation
+
+Explore transportation options available within the town.
+
+The platform supports the concept of finding:
+
+* Taxis
+* Rental cars
+* Bicycles
+* Availability information
+* Estimated transportation costs
+
+---
+
+### 🎫 Tour Packages
+
+Users can explore curated tour packages based on their interests and available time.
+
+Packages can include:
+
+* Half-day tours
+* Full-day tours
+* Multi-day tours
+* Guided experiences
+
+---
+
+### 🧭 Itinerary Planner
+
+Plan an entire trip from one place.
+
+Users can:
+
+```text
+Select Places
+      ↓
+Organize Activities
+      ↓
+Schedule Visits
+      ↓
+Manage Bookings
+      ↓
+Create Trip Itinerary
+```
+
+This helps users organize their travel plans efficiently.
+
+---
+
+### 📍 Interactive Maps
+
+Interactive maps make it easier to discover and navigate destinations.
+
+Users can locate:
+
+* Attractions
+* Restaurants
+* Services
+* Points of interest
+* Transportation routes
+
+---
+
+### ⭐ Reviews & Ratings
+
+Users can share their experiences through reviews and ratings.
+
+This creates a community-driven layer that helps travelers make more informed decisions.
+
+---
+
+### 📰 Travel Blogs & Guides
+
+The platform provides travel information through blogs and guides covering:
+
+* Hidden destinations
+* Local customs
+* Travel tips
+* Destination information
+* Local experiences
+
+---
+
+### 💬 Customer Support
+
+Users can access support for travel-related questions and booking-related issues.
 
 ---
 
 ## 🔐 Authentication
 
-The application includes user authentication functionality.
+Town Treasure includes user authentication functionality for accessing personalized and protected features.
 
-### Authentication features include:
-
-- User Signup
-- User Login
-- JWT-based authentication
-- Secure authentication flow
-- Protected application functionality
-
-JWT allows the application to securely manage authenticated users between the frontend and backend.
-
----
-
-## 🧭 Navigation
-
-The application includes a centralized and responsive navigation system.
-
-The Navbar provides access to important sections such as:
-
-- Home
-- Explore
-- Booking Services
-- About Us
-- Contact Us
-- Authentication
-
----
-
-## ℹ️ About Us
-
-The About Us section provides information about the Town Treasure platform, its purpose, and the idea behind the project.
-
----
-
-## 📞 Contact Us
-
-The Contact Us section provides users with an accessible interface for contacting or reaching the platform.
-
-The page was designed with a responsive layout and integrated into the overall navigation structure.
-
----
-
-# 👨‍💻 My Contribution — Atul Gond
-
-I worked primarily on the **frontend development, navigation, informational pages, responsive UI, and module integration** of Town Treasure.
-
-## 🧭 Navbar & Navigation
-
-I designed and developed the main navigation system of the application.
-
-My work included:
-
-- Designing the main Navbar.
-- Implementing navigation links between application sections.
-- Integrating the Navbar across different pages.
-- Creating a responsive navigation experience.
-- Maintaining consistent navigation throughout the application.
-- Integrating navigation with modules developed by other team members.
-
----
-
-## 📞 Contact Us Module
-
-I developed the Contact Us section of the application.
-
-My contribution included:
-
-- Designing the Contact Us page layout.
-- Developing the required React components.
-- Structuring the page content.
-- Implementing responsive styling.
-- Using Tailwind CSS for UI development.
-- Integrating the page with the application's navigation.
-
----
-
-## ℹ️ About Us Module
-
-I designed and developed the About Us section.
-
-My contribution included:
-
-- Creating the page structure.
-- Developing reusable React components.
-- Organizing the project information.
-- Implementing responsive UI.
-- Styling the page using Tailwind CSS.
-- Integrating the section with the overall application.
-
----
-
-## 🎨 Frontend Development & UI Integration
-
-In addition to my individual modules, I worked on integrating my frontend components with the rest of the application.
-
-My work included:
-
-- Developing reusable React components.
-- Implementing responsive layouts.
-- Using Tailwind CSS for styling.
-- Maintaining UI consistency.
-- Integrating different frontend modules.
-- Testing navigation between application sections.
-- Fixing frontend and UI integration issues.
-- Coordinating with team members during development.
-
----
-
-# 👥 Team Contributions
-
-| Team Member | Contribution |
-|-------------|--------------|
-| **Atul Gond** | Navbar, Contact Us, About Us, Frontend UI & Integration |
-| **Ashwini Kumar Singh** | Home Page & JWT Authentication |
-| **Pratush Shyam Gupta** | Login & Signup |
-| **Akshay Kumar** | Booking Services |
-| **Shrishti Dubey** | Exploring City Services |
-
----
-
-# 🏗️ System Architecture
-
-Town Treasure follows a frontend-backend architecture where the React frontend communicates with the Spring Boot backend through APIs.
+The authentication flow is designed around JWT-based authentication:
 
 ```text
-                         ┌─────────────────┐
-                         │      User       │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                    ┌─────────────────────────┐
-                    │     React Frontend      │
-                    │                         │
-                    │  Home                   │
-                    │  Explore Services       │
-                    │  Booking Services       │
-                    │  About Us               │
-                    │  Contact Us             │
-                    │  Login / Signup         │
-                    │  Navbar                 │
-                    └────────────┬────────────┘
-                                 │
-                              REST APIs
-                                 │
-                                 ▼
-                    ┌─────────────────────────┐
-                    │     Spring Boot        │
-                    │        Backend          │
-                    │                         │
-                    │  API Layer              │
-                    │  Business Logic         │
-                    │  Authentication         │
-                    └────────────┬────────────┘
-                                 │
-                                 ▼
-                    ┌─────────────────────────┐
-                    │   JWT Authentication    │
-                    └─────────────────────────┘
+             User
+               │
+               ▼
+        Login / Signup
+               │
+               ▼
+        Authentication
+               │
+               ▼
+           JWT Token
+               │
+               ▼
+      Authenticated Requests
+               │
+               ▼
+       Protected Features
+```
+
+---
+
+## 🏗️ Architecture
+
+```text
+┌─────────────────────────────────────────┐
+│               User                      │
+└──────────────────┬──────────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────────┐
+│            React Frontend               │
+│                                         │
+│  Pages • Components • Navigation        │
+│  Exploration • Services • Booking       │
+└──────────────────┬──────────────────────┘
+                   │
+                REST API
+                   │
+                   ▼
+┌─────────────────────────────────────────┐
+│           Spring Boot Backend           │
+│                                         │
+│  Authentication • Business Logic        │
+│  Travel Services • Booking Services     │
+└──────────────────┬──────────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────────┐
+│             Data Layer                  │
+│                                         │
+│ Users • Places • Services • Bookings    │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+* **React.js**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **Tailwind CSS**
+
+### Backend
+
+* **Java**
+* **Spring Boot**
+* **REST APIs**
+* **JWT Authentication**
+
+### Development Tools
+
+* **Git**
+* **GitHub**
+* **npm**
+* **Maven**
+
+---
+
+## 📂 Project Structure
+
+```text
+Town-Treasure/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── assets/
+│   │   └── services/
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       └── resources/
+│   │
+│   └── pom.xml
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure the following are installed:
+
+* Node.js
+* npm
+* Java JDK
+* Maven
+* Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/atulgond/Town-Treasure.git
+
+cd Town-Treasure
+```
+
+---
+
+### Backend Setup
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Build the project:
+
+```bash
+mvn clean install
+```
+
+Start the Spring Boot application:
+
+```bash
+mvn spring-boot:run
+```
+
+---
+
+### Frontend Setup
+
+Open another terminal and navigate to the frontend:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the URL displayed by the development server in your browser.
+
+---
+
+## 🔄 Application Flow
+
+```text
+        ┌───────────────┐
+        │     User      │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Login / Signup│
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Explore Town  │
+        └───────┬───────┘
+                │
+       ┌────────┼────────┐
+       ▼        ▼        ▼
+   Attractions Events  Dining
+       │        │        │
+       └────────┼────────┘
+                ▼
+        ┌───────────────┐
+        │ Plan Itinerary│
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Book Services │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Review & Rate │
+        └───────────────┘
+```
+
+---
+
+## 💡 Problem Statement
+
+Travelers typically rely on multiple applications to:
+
+* Find attractions
+* Discover local events
+* Search restaurants
+* Find accommodation
+* Arrange transportation
+* Plan itineraries
+* Read reviews
+* Access travel information
+
+This fragmented experience can make trip planning time-consuming.
+
+### Town Treasure brings these capabilities together into one platform.
+
+The application focuses on creating a **centralized, user-friendly travel ecosystem** where users can discover destinations, plan experiences, and access travel services.
+
+---
+
+## 🎯 Project Goals
+
+* Build a centralized platform for town exploration.
+* Simplify travel planning.
+* Make destination discovery easier.
+* Integrate travel-related services.
+* Provide personalized travel experiences.
+* Support itinerary planning.
+* Create a community-driven review system.
+* Provide a scalable full-stack application architecture.
+
+---
+
+## 🔮 Future Enhancements
+
+The platform can be extended with advanced capabilities such as:
+
+* 🤖 AI-powered travel assistant
+* 🧠 AI-generated personalized itineraries
+* 💳 Online payment integration
+* 🌦️ Real-time weather integration
+* 📍 Real-time GPS tracking
+* 🏨 Live accommodation availability
+* 🚕 Real-time transportation tracking
+* 🔔 Push notifications
+* 💬 AI-powered customer support
+* 📱 Dedicated mobile application
+* 🌐 Multi-language support
+
+---
+
+## 📚 Key Learning Areas
+
+Town Treasure provides practical experience with:
+
+* Full-stack web development
+* React.js
+* Component-based architecture
+* Responsive UI development
+* Tailwind CSS
+* Spring Boot
+* REST API development
+* JWT authentication
+* Frontend-backend integration
+* Travel and booking workflows
+* Application architecture
+* Git and GitHub
+
+---
+
+## 👨‍💻 Author
+
+### Atul Gond
+
+**B.Tech — Computer Science & Business**
+**IIIT Lucknow**
+
+Interests:
+
+* Software Development
+* Full-Stack Development
+* Backend Engineering
+* Artificial Intelligence
+* System Design
+* Competitive Programming
+
+---
+
+## ⭐ Project
+
+**Town Treasure**
+
+> **Discover. Explore. Plan. Experience.**
+
+A unified platform designed to make discovering and experiencing a town **simpler, smarter, and more convenient.**
